@@ -1,0 +1,25 @@
+.box{
+    background-color: rgb(216, 219, 216);
+    width: 350px;
+    height: 500px;
+    margin-top: -25px;
+    padding-top: 0px;
+    margin-left: 420px;
+    margin-bottom:-100px;
+}
+
+.row{
+    text-align: center;
+    font-size: 15px;
+}
+.bb{
+    background-image: url("https://www.arrajol.com/sites/default/files/2019/10/22/211806-%D8%A7%D9%84%D8%AA%D8%AC%D9%88%D9%84%20%D9%81%D9%8A%20%D8%B3%D9%88%D9%82%20%D9%86%D8%A7%D9%85%D8%A8%D9%88%20%D8%AF%D9%88%D9%86%D8%AC%20%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.submit{
+    background-color:  #01d28e;;
+    color: black;
+    width:100px;
+}

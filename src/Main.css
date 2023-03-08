@@ -1,0 +1,54 @@
+button{
+height:70px;
+width:250px;
+padding: 15px 25px;
+font-size: 24px;
+text-align: center;
+color: black;
+background-color: rgb(227, 140, 116);
+border-radius: 40px;
+margin-top:-20%;
+margin-left:40%;
+
+   
+    
+}
+.hh1
+{
+    margin-top:-10%;
+    margin-left:40%;
+    margin-bottom:-100px;
+
+}
+.hh2
+{
+    margin-top:-10%;
+    margin-left:40%;
+    margin-bottom:-100px;
+}
+.hh3
+{
+    
+    margin-top:-10%;
+    margin-left:40%;
+    margin-bottom:-100px;
+}
+.hh4
+{
+    
+    margin-top:-10%;
+    margin-left:40%;
+    margin-bottom:-100px;
+}
+.lll
+{
+    background-image: url("https://media.istockphoto.com/id/1196045056/photo/particle-wave.jpg?b=1&s=170667a&w=0&k=20&c=VnUXTjs19gCU8g0--CYSK3lVDJxcmr0ywrIubrQil2k=");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:1200px;
+}
+.hh
+{
+    color:cyan;
+    text-align:center;
+}

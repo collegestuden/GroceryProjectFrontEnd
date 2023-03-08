@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 import './App.css';
-
+import './First';
+import First from "./First";
+import Sign from "./Sign";
+import Reg from "./Reg";
+import Post from "./Post";
+import Get from "./Get";
+import Put from "./Put";
+import Delete from "./Delete";
+import Main from "./Main";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+return (
+    <Router>
+        <div>
+            <Routes>
+                <Route path="/" element={<First/>}></Route>
+                <Route path="/Sign" element={<Sign/>}></Route>
+                <Route path="/Reg" element={<Reg/>}></Route>
+                <Route path="/Post" element={<Post/>}></Route>
+                <Route path="/Get" element={<Get/>}></Route>
+                <Route path="/Put" element={<Put/>}></Route>
+                <Route path="/Delete" element={<Delete/>}></Route>
+                <Route path="/Main" element={<Main/>}></Route>
 
+
+                
+
+
+            </Routes>
+        </div>
+    </Router>
+);
+}
 export default App;
+
+

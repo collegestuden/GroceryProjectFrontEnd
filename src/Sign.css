@@ -1,0 +1,49 @@
+.ap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-supermarket-big-promotion-cute-cartoon-banner-image_196194.jpg");
+  background-size:1800px 1000px;
+    height:800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.for{
+  
+  padding: 0px 60px;
+  border-radius: 10px;
+  max-width: 550px !important;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  margin-top: 40px;
+  margin-bottom: 40px;
+ 
+  box-shadow: 0 0 10px 6px #2a443a25;
+
+ 
+}
+.reg{
+  align-items: center;
+  padding-left: 150px;
+
+}
+.h{
+  color: cyan;
+  
+}
+.signbttn{
+  width: 40%;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}

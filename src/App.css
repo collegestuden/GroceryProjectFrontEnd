@@ -1,38 +1,398 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.mac-book-pro-16-6 {
+    color: #040404;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 50px;
+    display: flex;
+  } 
+  .cat-absolute-container {
+    color: #fff;
+    width: 100%;
+    z-index: 1;
+    flex-direction: row;
+    flex-basis: 7%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -77px;
+    padding-top: 10px;
+    padding-left: 31px;
+    font-size: 3rem;
+    line-height: 60px;
+    display: flex;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .sign-up {
+    margin-top: 5px;
+    margin-left: 15px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .rectangle-64 {
+    width: 1728px;
+    height: 77px;
+    object-fit: cover;
+    z-index: 1;
+    margin-bottom: -57px;
   }
-}
+  
+  
+  .flex-container {
+    width: 55%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    display: flex;
+  }
+  
+  .first-name {
+    margin-top: 2px;
+  }
+  
+  .rectangle-84 {
+    width: 458px;
+    height: 52px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+  .flex-container-1 {
+    width: 55%;
+    flex-direction: row;
+    flex-basis: 5%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    display: flex;
+  }
+  
+  .last-name {
+    margin-top: 3px;
+  }
+  
+  .rectangle-85 {
+    height: 100%;
+    background-color: #d9d9d9a8;
+    border: none;
+    border-radius: 30px;
+    flex-direction: row;
+    flex-basis: 52%;
+    justify-content: flex-start;
+    align-items: stretch;
+    display: flex;
+  }
+  
+  .flex-container-2 {
+    width: 55%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  
+  .date-of-birth {
+    margin-bottom: 1px;
+    margin-right: 97px;
+  }
+  
+  .rectangle-90 {
+    width: 91px;
+    height: 52px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-left: 32px;
+  }
+  
+  .rectangle-91 {
+    width: 91px;
+    height: 52px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+  .rectangle-92 {
+    width: 127px;
+    height: 52px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+  .flex-container-3 {
+    width: 55%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 9px;
+    font-size: 2.25rem;
+    line-height: 45px;
+    display: flex;
+  }
+  
+  .gender {
+    margin-bottom: 1px;
+    margin-right: 192px;
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+  
+  .ellipse-2 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 48px;
+  }
+  
+  .male {
+    align-self: center;
+    margin-top: 1px;
+  }
+  
+  .ellipse-3 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 62px;
+  }
+  
+  .female {
+    align-self: center;
+    margin-top: 3px;
+  }
+  
+  .flex-container-4 {
+    width: 55%;
+    flex-direction: row;
+    flex-basis: 5%;
+    justify-content: space-between;
+    align-items: stretch;
+    display: flex;
+  }
+  
+  .rectangle-88 {
+    height: 100%;
+    background-color: #d9d9d9a8;
+    border: none;
+    border-radius: 30px;
+    flex-direction: row;
+    flex-basis: 51%;
+    justify-content: flex-start;
+    align-items: stretch;
+    display: flex;
+  }
+  
+  .flex-container-5 {
+    width: 55%;
+    flex-direction: row;
+    flex-basis: 5%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1px;
+    display: flex;
+  }
+  
+  .rectangle-89 {
+    height: 100%;
+    background-color: #d9d9d9a8;
+    border: none;
+    border-radius: 30px;
+    flex-direction: row;
+    flex-basis: 51%;
+    justify-content: flex-start;
+    align-items: stretch;
+    display: flex;
+  }
+  
+  .flex-container-6 {
+    width: 55%;
+    flex-direction: row;
+    flex-basis: 5%;
+    justify-content: space-between;
+    align-items: stretch;
+    display: flex;
+  }
+  
+  .rectangle-93 {
+    height: 95%;
+    background-color: #d9d9d9a8;
+    border: none;
+    border-radius: 30px;
+    flex-direction: row;
+    flex-basis: 51%;
+    justify-content: flex-start;
+    align-self: flex-end;
+    align-items: stretch;
+    margin-top: 1px;
+    display: flex;
+  }
+  
+  .flex-container-7 {
+    width: 55%;
+    flex-direction: row;
+    flex-basis: 5%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    display: flex;
+  }
+  
+  .rectangle-94 {
+    height: 100%;
+    background-color: #d9d9d9a8;
+    border: none;
+    border-radius: 30px;
+    flex-direction: row;
+    flex-basis: 51%;
+    justify-content: flex-start;
+    align-items: stretch;
+    display: flex;
+  }
+  
+  .flex-container-8 {
+    width: 60%;
+    flex-direction: row;
+    flex-basis: 7%;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-items: flex-end;
+    margin-top: 5px;
+    margin-right: 39px;
+    display: flex;
+  }
+  
+  .vector {
+    width: 39px;
+    height: 37px;
+    object-fit: cover;
+  }
+  
+  .rectangle-2 {
+    text-align: center;
+    color: #fffbfb;
+    height: 85%;
+    background-color: #3b834b;
+    border: none;
+    border-radius: 30px;
+    flex-direction: row;
+    flex-basis: 21%;
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+    padding-left: 3px;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 50px;
+    display: flex;
+  }
+  
+  .submit {
+    margin-left: 5px;
+   
+    }
+    .App {
+      text-align: center;
+    }
+    
+    .App-logo {
+      height: 40vmin;
+      pointer-events: none;
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+      .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+      }
+    }
+    
+    .App-header1{
+      background-image:url("C:\Users\Lenovo\Pictures\logo1.jpg");
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: black;
+      background-size: contain;
+      background-repeat: repeat;
+    }
+    .App-header2{
+      background-image: url("https://thumbs.dreamstime.com/b/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D1%85-%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8B%D1%85-%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5-180704149.jpg");
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .App-header3{
+      background-color: #7ca18d;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+    }
+    .App-header4{
+      background-color: #a17c98;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+    }
+    
+    
+    .App-link {
+      color: #61dafb;
+    }
+    
+    @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    .u{
+      margin-top: 35%;
+      height:55px;
+      width:170px;
+      padding: 20px 25px;
+      font-size: 24px;
+      text-align: center;
+      color: black;
+      background-color: rgb(227, 140, 116);
+      margin-left:3%;
+     border-radius: 25px;
+    }
+    .ui
+    {
+      margin-top: 35%;
+      height:55px;
+      width:170px;
+      padding: 20px 25px;
+      font-size: 24px;
+      text-align: center;
+      color: black;
+      background-color: rgb(227, 140, 116);
+      margin-left:3%;
+     border-radius: 90px;
+    }
+  
